@@ -28,7 +28,8 @@ Next, the pcs_df DataFrame was used to run the K-means algorithm to make predict
 
 ![D3-2](https://github.com/ASCHEET/Cryptocurrencies/blob/main/Resources/D3-2.png?raw=true)
 
-A new DataFrame was created named clustered_df by concatenating the crypto_df and pcs_df DataFrames on the same columns, the CoinName column was added from coinname_df DataFrame. Another new column to the clustered_df named 'Class' that holds the predictions, i.e., model.labels_
+A new DataFrame was created named clustered_df by concatenating the crypto_df and pcs_df DataFrames on the same columns, the CoinName column was added from coinname_df DataFrame. Another new column was added to the clustered_df named 'Class' that holds the predictions, i.e., model.labels_
+
 The unsupervised machine learning algorithm Principal Component Analysis (PCA) was used to reduce the dimensions of the cryptocurrency components to three principal components.  
 
 The following 3D scatter chart shows the cryptocurrency dataset in four clusters.
