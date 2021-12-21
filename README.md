@@ -3,7 +3,7 @@
 ## Overview
 Accountability Accounting, a prominent investment bank, is interested in offering a new cryptocurrency investment portfolio for its customers. The company, however, is lost in the vast universe of cryptocurrencies. Create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.
 
-The data not ideal, needed to be processed to fit the machine learning models. To group the cryptocurrencies, it was decided to use a clustering algorithm and data visualizations to share her findings with the board.
+The data not ideal, needed to be processed to fit the machine learning models. To group the cryptocurrencies, it was decided to use a clustering algorithm and data visualizations to share findings with the board.
 
 ## Data Processing
 The crypto_data.csv was retrieved from CryptoCompare (https://min-api.cryptocompare.com/data/all/coinlist).  
